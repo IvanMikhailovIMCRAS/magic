@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "magic"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Mikhailov <mikhailov.ivan.imc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+scipy = "1.9.3"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
